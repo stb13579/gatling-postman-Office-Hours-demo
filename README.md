@@ -19,7 +19,7 @@ Run the typeScript sample:
 ```shell
 cd typescript
 npm install
-npx gatling run --typescript --simulation GatlingEcomm # automatically download Gatling runtime, build the project, and run the computerdatabase simulation
+npx gatling run --typescript --simulation GatlingEcomm # automatically downloads Gatling runtime, builds the project, and runs the GatlingEcomm simulation
 ```
 
 The JavaScript sample does not work as-is
