@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "f47dfea8-45b5-4e67-9ed6-2ab7e846c101",
+		"name": "computerdatabase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36885753",
+		"_collection_link": "https://gatling-rd.postman.co/workspace/Gatling-R%26D~eeaacf50-2ee2-4d78-8d0e-7f5db8aeeb18/collection/36885753-f47dfea8-45b5-4e67-9ed6-2ab7e846c101?action=share&source=collection_link&creator=36885753"
+	},
+	"item": [
+		{
+			"name": "User scenario",
+			"item": [
+				{
+					"name": "Search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/computers?f={{searchCriterion}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"computers"
+							],
+							"query": [
+								{
+									"key": "f",
+									"value": "{{searchCriterion}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Browse",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/computers?p={{page}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"computers"
+							],
+							"query": [
+								{
+									"key": "p",
+									"value": "{{page}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Edit form",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/computers/new",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"computers",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Beautiful Computer",
+							"type": "text"
+						},
+						{
+							"key": "introduced",
+							"value": "2012-05-30",
+							"type": "text"
+						},
+						{
+							"key": "discontinued",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "company",
+							"value": "37",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/computers",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"computers"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "searchCriterion",
+			"value": "Macbook",
+			"type": "string"
+		},
+		{
+			"key": "page",
+			"value": "0",
+			"type": "string"
+		}
+	]
+}
