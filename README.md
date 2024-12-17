@@ -14,7 +14,7 @@ Run the typeScript sample:
 ```shell
 cd typescript
 npm install
-npx gatling run --typescript --simulation computerdatabase # automatically download Gatling runtime, build the project, and run the computerdatabase simulation
+npx gatling run --typescript --simulation GatlingEcomm # automatically download Gatling runtime, build the project, and run the computerdatabase simulation
 ```
 
 Or the JavaScript sample:
