@@ -3,9 +3,9 @@
 A demo of various ways to use a Postman collection as a Gatling user scenario with TypeScript NPM.
 
 ## Additional Resources
-[Gatling Postman reference documentation](https://docs.gatling.io/reference/script/protocols/postman/).
-[Product annoucement blog post with examples](https://gatling.io/blog/postman-integration/)
-[Create a test from Postman tutorial](https://docs.gatling.io/tutorials/postman/)
+- [Gatling Postman reference documentation](https://docs.gatling.io/reference/script/protocols/postman/).
+- [Product announcement blog post with examples](https://gatling.io/blog/postman-integration/)
+- [Create a test from Postman tutorial](https://docs.gatling.io/tutorials/postman/)
 
 ## Prerequisites
 
