@@ -4,8 +4,10 @@ A demo of various ways to use a Postman collection as a Gatling user scenario wi
 
 ## Additional Resources
 - [Gatling Postman reference documentation](https://docs.gatling.io/reference/script/protocols/postman/).
+- [Official demo project](https://github.com/gatling/gatling-postman-demo) _always up-to-date_
 - [Product announcement blog post with examples](https://gatling.io/blog/postman-integration/)
-- [Create a test from Postman tutorial](https://docs.gatling.io/tutorials/postman/)
+- [Tutorial: Create a test from Postman ](https://docs.gatling.io/tutorials/postman/)
+- December Office Hours (link soon)
 
 ## Prerequisites
 
